@@ -1,0 +1,92 @@
+PARM	ob	0		0	16.00	0	8
+#
+PARM	Si	0		0	28.00	0	14
+#
+PARM    1n  0       0   14.010  0   7
+EQUA    nh   
+#         
+PARM    2n  0       0   14.010  0   7
+EQUA    nh   
+#         
+PARM    3n  0       0   14.010  0   7
+EQUA    nh   
+# 
+PARM    4n  0       0   14.010  0   7
+EQUA    nh   
+#         
+PARM    1o  0       0   16.000  0   8
+EQUA    os   
+#         
+PARM    2o  0       0   16.000  0   8 
+EQUA    os  
+#         
+PARM    3o  0       0   16.000  0   8 
+EQUA    os  
+#  
+PARM    4o  0       0   16.000  0   8 
+EQUA    os  
+#       
+PARM    1p  0       0   30.973  0   15
+EQUA    py  
+EQUA    p5 
+#
+PARM    2p  0       0   30.973  0   15 
+EQUA    py 
+EQUA    p5 
+#
+PARM    3p  0       0   30.973  0   15
+EQUA    py  
+EQUA    p5 
+#
+PARM    4p  0       0   30.973  0   15
+EQUA    py  
+EQUA    p5 
+#
+PARM    1s  0       0   32.065  0   16
+EQUA    s2  
+#
+PARM    2s  0       0   32.065  0   16
+EQUA    s2  
+#
+PARM    3s  0       0   32.065  0   16
+EQUA    s2  
+#
+PARM    4s  0       0   32.065  0   16
+EQUA    s2  
+#
+PARM    1c  0       0   35.450  0   17 
+EQUA    cl 
+#
+PARM    2c  0       0   35.450  0   17 
+EQUA    cl 
+#
+PARM    3c  0       0   35.450  0   17 
+EQUA    cl 
+#
+PARM    4c  0       0   35.450  0   17 
+EQUA    cl 
+#
+PARM 	1d 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	2d 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	3d 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	4d 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	1e 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	2e 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	3e 	1 		0	12.01	0	6
+EQUA 	ca 
+#
+PARM 	4e 	1 		0	12.01	0	6
+EQUA 	ca 
+#
