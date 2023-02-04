@@ -20,12 +20,12 @@ Palladium ForceField For Cis-Trans Square Planar Complexes
 *   2. in tleap enter:
 *   `loadamberparams result.frcmod`
 *   `loadmol2 g2.mol2`
-*   then **if you need**; load gaff2.dat and Pd_son.dat parameters too.
+*   then **if you need**; load gaff2.dat and Pd_son.dat (paladdiumFF/assign/data/Pd_son.dat) parameters too.
     
 
 **I WANT TO SEE ALL PALLADIUM CIS TRANS FORCE FIELDS IN ONE FILE WHERE CAN I FIND IT?**
 
-*   All palladium parameters in paladdiumFF/assign/data/Pd\_son.dat
+*   All palladium parameters in paladdiumFF/assign/data/Pd_son.dat
 
 **ATTENTION ABOUT PARMCHK.DAT**
 Some parameters may need to be added to dat/antechamber/PARCMHK.DAT for parmchk2 to run. These parameters can be found in PARMCHK_additional.DAT. Make sure to make a  backup of the original parmchk.dat file before doing this. No responsibility is accepted.
