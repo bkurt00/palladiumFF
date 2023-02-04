@@ -14,7 +14,13 @@ Palladium ForceField For Cis-Trans Square Planar Complexes
 
 **I WANT TO TEST THE REPRODUCIBILITY OF THE RESULTS MYSELF, WHERE CAN I FIND FILES?**
 
-*   in resp\_mol2\_top\_crd folder, you can find result.frcmod files. These files obtained with assign.py. Since these files were obtained during the development of assign.py, there may be some differences between the file you obtained and here. In this folder, also there are prmtop, coordinate and numbering system mol2 files with resp charges files: a.mol2, a.top, a.crd, result.frcmod Other details about the program can be found in the article.
+*   in resp\_mol2\_top\_crd folder, you can find result.frcmod files. These files obtained with assign.py. Since these files were obtained during the development of assign.py, there may be some differences between the file you obtained and here. In this folder, also there are prmtop, coordinate and numbering system mol2 files with resp charges files: a.mol2, a.top, a.crd, result.frcmod Other details about the program can be found in the article. 
+*   To simulate a novel molecule:
+*   1. obtain novel result.frcmod file ( with g.mol2 and g2.mol2) using assign.py
+*   2. in tleap enter:
+*   `loadamberparams result.frcmod`
+*   `loadmol2 g2.mol2`
+*   then **if you need**; load gaff2.dat and Pd_son.dat parameters too.
     
 
 **I WANT TO SEE ALL PALLADIUM CIS TRANS FORCE FIELDS IN ONE FILE WHERE CAN I FIND IT?**
