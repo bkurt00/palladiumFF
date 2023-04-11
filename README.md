@@ -1,7 +1,3 @@
-**UPDATE: 12/04/2023:**
-**assign_v2.py has been added. you can use assign_v2.py instead of assign.py. 
-*assign_v2.py is optimized version of assign.py.
-
 Palladium ForceField For Cis-Trans Square Planar Complexes
 
 **Palladium Amber force field files and assign.py program for square planar cis-trans palladium simulations**
