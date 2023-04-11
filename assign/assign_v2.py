@@ -12,7 +12,6 @@ WORD_IMPROPER = "IMPROPER"
 WORD_NONBON = "NONBON"
 WORD_NEWLINE = "\n"
 
-
 letters_from_frcmod="letters_from_frcmod.txt"
 term_letters_file="term_letters_file.txt"
 dihedrals=[]
