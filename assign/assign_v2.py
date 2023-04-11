@@ -293,17 +293,6 @@ def write_novel_parameters(filePath,novel_parameters):
     for i in range(len(novel_parameters)):
         f16.write('%s \n' % (novel_parameters[i]))
     f16.close()
-########################FROM PARMCHK#####################################
-#tempfiles=["temp_mass.dat","temp_bonds.dat","temp_angles.dat","temp_dihedrals.dat","temp_impropers.dat","temp_nonbond.dat"]
-#normalfiles=["gaff2_mass.dat","gaff2_bonds.dat","gaff2_angles.dat","gaff2_dihedrals.dat","gaff2_impropers.dat","gaff2_nonbond.dat"]
-#parmchkfiles=["check_mass.dat","check_bonds.dat","check_angles.dat","check_dihedrals.dat","check_impropers.dat","check_nonbond.dat"]
-#utempfiles=["utemp_mass.dat","utemp_bonds.dat","utemp_angles.dat","utemp_dihedrals.dat","utemp_impropers.dat","utemp_nonbond.dat"]
-#start=["MASS","BOND","ANGLE","DIHE","IMPROPER","NONBON"]
-#end=["BOND","ANGLE","DIHE","IMPROPER","NONBON","$p"]
-
-
-
-
 
 create_folder("info")
 
